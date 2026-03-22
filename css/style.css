@@ -30,6 +30,9 @@ body {
 
 /* header section start */
 
+body {
+  background-color: #e5e5e5;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -112,7 +115,7 @@ nav ul li a:hover {
 .heading {
   color: var(--primary_color);
   font-size: var(--heading_font_size);
-  width: 60%;
+  /* width: 60%; */
   margin-bottom: 1rem;
   letter-spacing: 0.5px;
   line-height: 72px;
@@ -255,4 +258,49 @@ nav ul li a:hover {
 /* school section  */
 .school-section {
   display: flex;
+}
+
+/* study section */
+.study-section {
+  text-align: center;
+}
+.study-info {
+  text-align: center;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 50px;
+}
+.card-info {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+.card-info:hover {
+  transform: translatey(-10px);
+}
+.course-image {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.course-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+.student-count {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--pragraph-text-color);
+}
+.star-rating {
+  color: #f8b400;
+  font-size: 12px;
 }
