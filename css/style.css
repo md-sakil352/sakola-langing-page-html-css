@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   width: 100%;
 }
 
@@ -34,7 +34,7 @@ html {
 /* header section start */
 
 body {
-  background-color: #e5e5e5d7;
+  background-color: #f7f7f7af;
 }
 header {
   display: flex;
@@ -115,7 +115,7 @@ nav ul li a:hover {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 100px 15px;
+  padding: 80px 15px;
 }
 
 /* .hero-text {
@@ -220,18 +220,18 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
-  gap: 2rem;
+  /* padding: 15px; */
+  gap: 7rem;
 }
-.aboute-info {
+/* .aboute-info {
   width: 50%;
-}
-.aboute-image {
+} */
+/* .aboute-image {
   width: 50%;
-}
-.aboute-info {
+} */
+/* .aboute-info {
   margin-left: 2rem;
-}
+} */
 .aboute-info h2 {
   width: 70%;
   letter-spacing: normal;
