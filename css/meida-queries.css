@@ -95,3 +95,74 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/* tablate device min-width:481px and max-width:768px */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navsection {
+    display: none;
+  }
+  header > * {
+    margin: 0;
+  }
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .hero-banner-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .school-section {
+    flex-direction: column;
+  }
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* laptope device min-width:769px and max-width:1024px */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .hero-text {
+    padding: 1rem;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .aboute-info {
+    padding: 1rem;
+  }
+  .school-section {
+    flex-direction: column;
+  }
+  .school-info {
+    padding: 1rem;
+  }
+  .school-section img {
+    justify-content: center;
+    align-self: center;
+  }
+  .study-section .heading {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
